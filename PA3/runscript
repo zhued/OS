@@ -1,0 +1,189 @@
+#/!/bin/bash
+
+#File: testscript
+#Author: Andy Sayler
+#Project: CSCI 3753 Programming Assignment 3
+#Create Date: 2012/03/09
+#Modify Date: 2012/03/21
+#Description:
+#	A simple bash script to run a signle copy of each test case
+#	and gather the relevent data.
+
+ITERATIONS=10000000
+BYTESTOCOPY=102400
+BLOCKSIZE=1024
+TIMEFORMAT="wall=%e user=%U system=%S CPU=%P i-switched=%c v-switched=%w"
+MAKE="make -s"
+
+echo Building code...
+$MAKE clean
+$MAKE
+
+echo Starting test runs...
+
+echo CPU BOUND
+echo 5 processes
+echo SCHED_OTHER
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_OTHER_LIGHT_CPU -a sudo ./CPUbound $ITERATIONS SCHED_OTHER 5 > /dev/null
+done
+echo SCHED_FIFO
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_FIFO_LIGHT_CPU -a sudo ./CPUbound $ITERATIONS SCHED_FIFO 5 > /dev/null
+done
+echo SCHED_RR
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_RR_LIGHT_CPU -a sudo ./CPUbound $ITERATIONS SCHED_RR 5 > /dev/null
+done
+
+
+echo 70 processes
+echo SCHED_OTHER
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_OTHER_MEDIUM_CPU -a ./CPUbound $ITERATIONS SCHED_OTHER 70 > /dev/null
+done
+echo SCHED_FIFO
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_FIFO_MEDIUM_CPU -a sudo ./CPUbound $ITERATIONS SCHED_FIFO 70 > /dev/null
+done
+echo SCHED_RR
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_RR_MEDIUM_CPU -a sudo ./CPUbound $ITERATIONS SCHED_RR 70 > /dev/null
+done
+
+
+echo 300 processes
+echo SCHED_OTHER
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_OTHER_HEAVY_CPU -a ./CPUbound $ITERATIONS SCHED_OTHER 300 > /dev/null
+done
+echo SCHED_FIFO
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_FIFO_HEAVY_CPU -a sudo ./CPUbound $ITERATIONS SCHED_FIFO 300 > /dev/null
+done
+echo SCHED_RR
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_RR_HEAVY_CPU -a sudo ./CPUbound $ITERATIONS SCHED_RR 300 > /dev/null
+done
+
+#----------------------------------------------------------------------------
+
+echo IO BOUND
+echo 5 processes
+echo SCHED_OTHER
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_OTHER_LIGHT_IO -a ./IObound 5 SCHED_OTHER $BYTESTOCOPY $BLOCKSIZE > /dev/null
+done
+echo SCHED_FIFO
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_FIFO_LIGHT_IO -a sudo ./IObound 5 SCHED_FIFO $BYTESTOCOPY $BLOCKSIZE > /dev/null
+done
+echo SCHED_RR
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_RR_LIGHT_IO -a sudo ./IObound 5 SCHED_RR $BYTESTOCOPY $BLOCKSIZE > /dev/null
+done
+
+echo 70 processes
+echo SCHED_OTHER
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_OTHER_MEDIUM_IO -a ./IObound 70 SCHED_OTHER $BYTESTOCOPY $BLOCKSIZE > /dev/null
+done
+echo SCHED_FIFO
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_FIFO_MEDIUM_IO -a sudo ./IObound 70 SCHED_FIFO $BYTESTOCOPY $BLOCKSIZE > /dev/null
+done
+echo SCHED_RR
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_RR_MEDIUM_IO -a sudo ./IObound 70 SCHED_RR $BYTESTOCOPY $BLOCKSIZE > /dev/null
+done
+
+
+echo 300 processes
+echo SCHED_OTHER
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_OTHER_HEAVY_IO -a ./IObound 300 SCHED_OTHER $BYTESTOCOPY $BLOCKSIZE > /dev/null
+done
+echo SCHED_FIFO
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_FIFO_HEAVY_IO -a sudo ./IObound 300 SCHED_FIFO $BYTESTOCOPY $BLOCKSIZE > /dev/null
+done
+echo SCHED_RR
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_RR_HEAVY_IO -a sudo ./IObound 300 SCHED_RR $BYTESTOCOPY $BLOCKSIZE > /dev/null
+done
+
+
+#----------------------------------------------------------------------------
+
+echo MIXED BOUNDED
+echo 5 processes
+echo SCHED_OTHER 
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_OTHER_LIGHT_MIXED -a ./MIXEDbound $ITERATIONS SCHED_OTHER 5 > /dev/null
+done
+echo SCHED_FIFO
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_FIFO_LIGHT_MIXED -a sudo ./MIXEDbound $ITERATIONS SCHED_FIFO 5 > /dev/null
+done
+echo SCHED_RR 
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_RR_LIGHT_MIXED -a sudo ./MIXEDbound $ITERATIONS SCHED_RR 5 > /dev/null
+done
+
+
+echo 70 processes
+echo SCHED_OTHER 
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_OTHER_MEDIUM_MIXED -a ./MIXEDbound $ITERATIONS SCHED_OTHER 70 > /dev/null
+done
+echo SCHED_FIFO
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_FIFO_MEDIUM_MIXED -a sudo ./MIXEDbound $ITERATIONS SCHED_FIFO 70 > /dev/null
+done
+echo SCHED_RR 
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_RR_MEDIUM_MIXED -a sudo ./MIXEDbound $ITERATIONS SCHED_RR 70 > /dev/null
+done
+
+echo 300 processes
+echo SCHED_OTHER 
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_OTHER_HEAVY_MIXED -a ./MIXEDbound $ITERATIONS SCHED_OTHER 300 > /dev/null
+done
+echo SCHED_FIFO
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_FIFO_HEAVY_MIXED -a sudo ./MIXEDbound $ITERATIONS SCHED_FIFO 300 > /dev/null
+done
+echo SCHED_RR 
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_RR_HEAVY_MIXED -a sudo ./MIXEDbound $ITERATIONS SCHED_RR 300 > /dev/null
+done
+
+mv data_* cfs

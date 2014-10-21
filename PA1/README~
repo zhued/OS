@@ -1,0 +1,28 @@
+CSCI 3753 Operating Systems
+Programming Assignment 1
+
+Name: Edward Zhu 
+Student ID: 101787259
+
+
+arch/x86/kernel/helloworld.c
+This is just a C file that has an asmlinkage reference from linux/linkage.h. Then it has a system call function that will print out a given line with the KERN_EMERG emergency macro.
+
+
+arch/x86/kernel/Makefile
+Added the line so that it will compile the object file of helloworld.c and link it.
+
+arch/x86/kernel/syscall_64.tbl
+Here we add a system call and link it with a certain number that can be accessible.
+
+include/linux/syscalls.h
+Add the prototype to link it to the system call.
+
+/var/log/syslog
+This is where the system logs all outputs, and is where out output should be.
+
+test.c
+We use this to call the syscall function. We saved the syscall with the number 314, thus we call that then it will print whatever is in sys_helloworld.
+	To run/compile test.c, type 'gcc test.c -o test' when in the kernels folder
+
+

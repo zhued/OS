@@ -1,0 +1,36 @@
+#/!/bin/bash
+
+#File: testscript
+#Author: Andy Sayler
+#Project: CSCI 3753 Programming Assignment 3
+#Create Date: 2012/03/09
+#Modify Date: 2012/03/21
+#Description:
+#	A simple bash script to run a signle copy of each test case
+#	and gather the relevent data.
+
+ITERATIONS=10000000
+BYTESTOCOPY=102400
+BLOCKSIZE=1024
+TIMEFORMAT="wall=%e user=%U system=%S CPU=%P i-switched=%c v-switched=%w"
+MAKE="make -s"
+
+echo Building code...
+$MAKE clean
+$MAKE
+
+echo Starting test runs...
+
+echo CPU BOUND
+echo 5 processes
+echo SCHED_OTHER
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_OTHER_LIGHT_CPU -a sudo ./CPUbound $ITERATIONS SCHED_OTHER 5 > /dev/null
+done
+echo SCHED_FIFO
+for i in 1 2 3 4 5
+do
+/usr/bin/time -f "$TIMEFORMAT" -o data_FIFO_LIGHT_CPU -a sudo ./CPUbound $ITERATIONS SCHED_FIFO 5 > /dev/null
+done
+mv data_* cfs

@@ -1,0 +1,685 @@
+Jan 22 17:54:49 cu-cs-vm rsyslogd: [origin software="rsyslogd" swVersion="5.8.6" x-pid="507" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Jan 22 17:55:17 cu-cs-vm anacron[16903]: Job `cron.daily' terminated
+Jan 22 17:55:17 cu-cs-vm anacron[16903]: Normal exit (1 job run)
+Jan 22 18:17:01 cu-cs-vm CRON[14501]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 22 19:17:04 cu-cs-vm CRON[20641]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 22 20:17:01 cu-cs-vm CRON[25003]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 22 21:04:49 cu-cs-vm kernel: [13817.403169] SGI XFS with ACLs, security attributes, realtime, large block/inode numbers, no debug enabled
+Jan 22 21:04:49 cu-cs-vm kernel: [13817.410873] JFS: nTxBlock = 8192, nTxLock = 65536
+Jan 22 21:04:49 cu-cs-vm kernel: [13817.419573] NTFS driver 2.1.30 [Flags: R/O MODULE].
+Jan 22 21:04:49 cu-cs-vm kernel: [13817.432244] QNX4 filesystem 0.2.3 registered.
+Jan 22 21:04:49 cu-cs-vm kernel: [13817.444824] Btrfs loaded
+Jan 22 21:06:08 cu-cs-vm kernel: imklog 5.8.6, log source = /proc/kmsg started.
+Jan 22 21:06:08 cu-cs-vm rsyslogd: [origin software="rsyslogd" swVersion="5.8.6" x-pid="513" x-info="http://www.rsyslog.com"] start
+Jan 22 21:06:08 cu-cs-vm rsyslogd: rsyslogd's groupid changed to 103
+Jan 22 21:06:08 cu-cs-vm rsyslogd: rsyslogd's userid changed to 101
+Jan 22 21:06:08 cu-cs-vm rsyslogd-2039: Could not open output pipe '/dev/xconsole' [try http://www.rsyslog.com/e/2039 ]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Initializing cgroup subsys cpuset
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Initializing cgroup subsys cpu
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Linux version 3.8.13.13-edzh3452-pa1 (root@cu-cs-vm) (gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) ) #1 SMP Wed Jan 22 17:50:00 MST 2014 (Ubuntu 3.8.0-35.50~precise1-generic 3.8.13.13)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-3.8.13.13-edzh3452-pa1 root=UUID=da3c464a-aa91-4a9c-a50d-7a429c349043 ro crashkernel=384M-2G:64M,2G-:128M
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] KERNEL supported cpus:
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]   Intel GenuineIntel
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]   AMD AuthenticAMD
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]   Centaur CentaurHauls
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007ffeffff] usable
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] BIOS-e820: [mem 0x000000007fff0000-0x000000007fffffff] ACPI data
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] NX (Execute Disable) protection: active
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] SMBIOS 2.5 present.
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] e820: update [mem 0x00000000-0x0000ffff] usable ==> reserved
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] No AGP bridge found
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] e820: last_pfn = 0x7fff0 max_arch_pfn = 0x400000000
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] MTRR default type: uncachable
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] MTRR variable ranges disabled:
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [ffff88000009fff0]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] initial memory mapped: [mem 0x00000000-0x1fffffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Base memory trampoline at [ffff880000099000] 99000 size 24576
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] init_memory_mapping: [mem 0x00000000-0x7ffeffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]  [mem 0x00000000-0x7fdfffff] page 2M
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]  [mem 0x7fe00000-0x7ffeffff] page 4k
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] kernel direct mapping tables up to 0x7ffeffff @ [mem 0x1fffc000-0x1fffffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] RAMDISK: [mem 0x36140000-0x37097fff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Reserving 64MB of memory at 800MB for crashkernel (System RAM: 2047MB)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: XSDT 000000007fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: FACP 000000007fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: DSDT 000000007fff0470 01B96 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: FACS 000000007fff0200 00040
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: APIC 000000007fff0240 0005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: SSDT 000000007fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] No NUMA configuration found
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000007ffeffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Initmem setup node 0 [mem 0x00000000-0x7ffeffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]   NODE_DATA [mem 0x7ffeb000-0x7ffeffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]  [ffffea0000000000-ffffea0001ffffff] PMD -> [ffff88007d600000-ffff88007f5fffff] on node 0
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Zone ranges:
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]   DMA      [mem 0x00010000-0x00ffffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]   DMA32    [mem 0x01000000-0xffffffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]   Normal   empty
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Movable zone start for each node
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Early memory node ranges
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]   node   0: [mem 0x00010000-0x0009efff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]   node   0: [mem 0x00100000-0x7ffeffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] On node 0 totalpages: 524159
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]   DMA zone: 6 pages reserved
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]   DMA zone: 3913 pages, LIFO batch:0
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]   DMA32 zone: 8128 pages used for memmap
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000]   DMA32 zone: 512048 pages, LIFO batch:31
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: IOAPIC (id[0x02] address[0xfec00000] gsi_base[0])
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] IOAPIC[0]: apic_id 2, version 17, address 0xfec00000, GSI 0-23
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: IRQ0 used by override.
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: IRQ2 used by override.
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] ACPI: IRQ9 used by override.
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] nr_irqs_gsi: 40
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] PM: Registered nosave memory: 000000000009f000 - 00000000000a0000
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] PM: Registered nosave memory: 00000000000a0000 - 00000000000f0000
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] PM: Registered nosave memory: 00000000000f0000 - 0000000000100000
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] e820: [mem 0x80000000-0xfffbffff] available for PCI devices
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Booting paravirtualized kernel on bare hardware
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] setup_percpu: NR_CPUS:256 nr_cpumask_bits:256 nr_cpu_ids:2 nr_node_ids:1
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] PERCPU: Embedded 28 pages/cpu @ffff88007fc00000 s84928 r8192 d21568 u1048576
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] pcpu-alloc: s84928 r8192 d21568 u1048576 alloc=1*2097152
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] pcpu-alloc: [0] 0 1 
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 515961
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Policy zone: DMA32
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.8.13.13-edzh3452-pa1 root=UUID=da3c464a-aa91-4a9c-a50d-7a429c349043 ro crashkernel=384M-2G:64M,2G-:128M
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] __ex_table already sorted, skipping sort
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Checking aperture...
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] No AGP bridge found
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Memory: 1966572k/2097088k available (7068k kernel code, 452k absent, 130064k reserved, 6175k data, 996k init)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] SLUB: Genslabs=15, HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Hierarchical RCU implementation.
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=2.
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] NR_IRQS:16640 nr_irqs:512 16
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] Console: colour dummy device 80x25
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] console [tty0] enabled
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] allocated 8388608 bytes of page_cgroup
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] tsc: Fast TSC calibration failed
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] tsc: PIT calibration matches PMTIMER. 1 loops
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.000000] tsc: Detected 2268.706 MHz processor
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.008008] Calibrating delay loop (skipped), value calculated using timer frequency.. 4537.41 BogoMIPS (lpj=9074824)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.008016] pid_max: default: 32768 minimum: 301
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.008042] Security Framework initialized
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.008063] AppArmor: AppArmor initialized
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.008068] Yama: becoming mindful.
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.009127] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.009532] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.009723] Mount-cache hash table entries: 256
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.009876] Initializing cgroup subsys cpuacct
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.009882] Initializing cgroup subsys memory
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.009891] Initializing cgroup subsys devices
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.009897] Initializing cgroup subsys freezer
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.009902] Initializing cgroup subsys blkio
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.009907] Initializing cgroup subsys perf_event
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.009913] Initializing cgroup subsys hugetlb
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.010039] CPU: Physical Processor ID: 0
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.010044] CPU: Processor Core ID: 0
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.010052] mce: CPU supports 0 MCE banks
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.010103] Last level iTLB entries: 4KB 512, 2MB 0, 4MB 0
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.010103] Last level dTLB entries: 4KB 512, 2MB 32, 4MB 32
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.010103] tlb_flushall_shift: 1
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.010386] Freeing SMP alternatives: 24k freed
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.026990] ACPI: Core revision 20121018
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.027677] ftrace: allocating 26539 entries in 104 pages
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.044435] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.085406] smpboot: CPU0: Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz (fam: 06, model: 3a, stepping: 09)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.088000] Performance Events: unsupported p6 CPU model 58 no PMU driver, software events only.
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.088000] NMI watchdog: disabled (cpu0): hardware events not enabled
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.088000] smpboot: Booting Node   0, Processors  #1 OK
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.012000] mce: CPU supports 0 MCE banks
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.100066] Brought up 2 CPUs
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.100075] smpboot: Total of 2 processors activated (9074.82 BogoMIPS)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.100643] devtmpfs: initialized
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.100643] EVM: security.selinux
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.100643] EVM: security.SMACK64
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.100643] EVM: security.capability
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.100701] regulator-dummy: no parameters
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.100754] NET: Registered protocol family 16
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.101072] ACPI: bus type pci registered
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.101176] PCI: Using configuration type 1 for base access
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.104134] bio: create slab <bio-0> at 0
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.104151] ACPI: Added _OSI(Module Device)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.104151] ACPI: Added _OSI(Processor Device)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.104151] ACPI: Added _OSI(3.0 _SCP Extensions)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.104151] ACPI: Added _OSI(Processor Aggregator Device)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.104444] ACPI: EC: Look up EC in DSDT
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.104690] ACPI: Executed 1 blocks of module-level executable AML code
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.106935] ACPI: Interpreter enabled
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.106942] ACPI: (supports S0 S5)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.106960] ACPI: Using IOAPIC for interrupt routing
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.109323] ACPI: No dock devices found.
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.109331] PCI: Ignoring host bridge windows from ACPI; if necessary, use "pci=use_crs" and report a bug
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.109389] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.109396] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.110019] pci_root PNP0A03:00: host bridge window [io  0x0000-0x0cf7] (ignored)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.110024] pci_root PNP0A03:00: host bridge window [io  0x0d00-0xffff] (ignored)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.110029] pci_root PNP0A03:00: host bridge window [mem 0x000a0000-0x000bffff] (ignored)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.110033] pci_root PNP0A03:00: host bridge window [mem 0x80000000-0xffdfffff] (ignored)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.110038] PCI: root bus 00: using default resources
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.110043] pci_root PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.110067] PCI host bridge to bus 0000:00
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.110074] pci_bus 0000:00: root bus resource [bus 00-ff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.110080] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.110086] pci_bus 0000:00: root bus resource [mem 0x00000000-0xfffffffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.110142] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.110575] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.111278] pci 0000:00:02.0: [80ee:beef] type 00 class 0x030000
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.112785] pci 0000:00:02.0: reg 10: [mem 0xe0000000-0xe1ffffff pref]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.123341] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.124148] pci 0000:00:03.0: reg 10: [mem 0xf0000000-0xf001ffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.125913] pci 0000:00:03.0: reg 18: [io  0xd000-0xd007]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.129456] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.130407] pci 0000:00:04.0: reg 10: [io  0xd020-0xd03f]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.132145] pci 0000:00:04.0: reg 14: [mem 0xf0400000-0xf07fffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.133044] pci 0000:00:04.0: reg 18: [mem 0xf0800000-0xf0803fff pref]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.136292] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.136405] pci 0000:00:05.0: reg 10: [io  0xd100-0xd1ff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.136484] pci 0000:00:05.0: reg 14: [io  0xd200-0xd23f]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.136979] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.137916] pci 0000:00:06.0: reg 10: [mem 0xf0804000-0xf0804fff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.144030] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.144829] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.145823] pci 0000:00:0d.0: reg 10: [io  0xd240-0xd247]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.147548] pci 0000:00:0d.0: reg 18: [io  0xd250-0xd257]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.149007] pci 0000:00:0d.0: reg 20: [io  0xd260-0xd26f]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.149899] pci 0000:00:0d.0: reg 24: [mem 0xf0806000-0xf0807fff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.151332]  pci0000:00: ACPI _OSC support notification failed, disabling PCIe ASPM
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.151352]  pci0000:00: Unable to request _OSC control (_OSC support mask: 0x08)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.152753] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.152957] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 10 *11)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153032] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 9 *10 11)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153110] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 *9 10 11)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] vgaarb: loaded
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] vgaarb: bridge control possible 0000:00:02.0
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] SCSI subsystem initialized
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] ACPI: bus type scsi registered
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] libata version 3.00 loaded.
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] ACPI: bus type usb registered
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] usbcore: registered new interface driver usbfs
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] usbcore: registered new interface driver hub
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] usbcore: registered new device driver usb
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] PCI: Using ACPI for IRQ routing
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] PCI: pci_cache_line_size set to 64 bytes
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] e820: reserve RAM buffer [mem 0x7fff0000-0x7fffffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] NetLabel: Initializing
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] NetLabel:  domain hash size = 128
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] NetLabel:  protocols = UNLABELED CIPSOv4
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] NetLabel:  unlabeled traffic allowed by default
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.153318] Switching to clocksource refined-jiffies
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.163422] AppArmor: AppArmor Filesystem Enabled
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.163452] pnp: PnP ACPI init
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.163469] ACPI: bus type pnp registered
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.163543] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.163555] pnp 00:01: [dma 4]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.163589] pnp 00:01: Plug and Play ACPI device, IDs PNP0200 (active)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.163668] pnp 00:02: Plug and Play ACPI device, IDs PNP0f03 (active)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.163718] pnp 00:03: Plug and Play ACPI device, IDs PNP0400 (active)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.164224] pnp: PnP ACPI: found 4 devices
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.164230] ACPI: ACPI bus type pnp unregistered
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.179482] Switching to clocksource acpi_pm
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.179564] pci_bus 0000:00: resource 4 [io  0x0000-0xffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.179575] pci_bus 0000:00: resource 5 [mem 0x00000000-0xfffffffff]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.179617] NET: Registered protocol family 2
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.179750] TCP established hash table entries: 16384 (order: 6, 262144 bytes)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.179750] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.179750] TCP: Hash tables configured (established 16384 bind 16384)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.179750] TCP: reno registered
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.179750] UDP hash table entries: 1024 (order: 3, 32768 bytes)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.179750] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.179750] NET: Registered protocol family 1
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.179750] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.179750] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.179750] pci 0000:00:02.0: Boot video device
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.179750] PCI: CLS 0 bytes, default 64
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.179750] Trying to unpack rootfs image as initramfs...
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.406544] Freeing initrd memory: 15712k freed
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.408334] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.408879] Initialise module verification
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.408915] audit: initializing netlink socket (disabled)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.408929] type=2000 audit(1390449964.407:1): initialized
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.434100] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.436775] VFS: Disk quotas dquot_6.5.2
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.436815] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.437593] fuse init (API version 7.20)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.437865] msgmni has been set to 3871
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.440228] Key type asymmetric registered
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.440240] Asymmetric key parser 'x509' registered
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.440273] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.440434] io scheduler noop registered
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.440440] io scheduler deadline registered (default)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.440449] io scheduler cfq registered
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.440530] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.440546] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.440583] intel_idle: does not run on family 6 model 58
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.440708] ACPI: AC Adapter [AC] (on-line)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.440753] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.440762] ACPI: Power Button [PWRF]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.440828] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.440836] ACPI: Sleep Button [SLPF]
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.442463] GHES: HEST is not enabled!
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.442660] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.443580] ACPI: Battery Slot [BAT0] (battery present)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.444723] Linux agpgart interface v0.103
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.448467] brd: module loaded
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.450169] loop: module loaded
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.450450] libphy: Fixed MDIO Bus: probed
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.450504] tun: Universal TUN/TAP device driver, 1.6
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.450509] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.450653] PPP generic driver version 2.4.2
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.450797] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.450803] ehci-pci: EHCI PCI platform driver
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.450815] ehci-platform: EHCI generic platform driver
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.450830] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.450900] ohci_hcd 0000:00:06.0: setting latency timer to 64
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.450916] ohci_hcd 0000:00:06.0: OHCI Host Controller
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.450926] ohci_hcd 0000:00:06.0: new USB bus registered, assigned bus number 1
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.451001] ohci_hcd 0000:00:06.0: irq 22, io mem 0xf0804000
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.504683] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.504700] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.504715] usb usb1: Product: OHCI Host Controller
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.504729] usb usb1: Manufacturer: Linux 3.8.13.13-edzh3452-pa1 ohci_hcd
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.504742] usb usb1: SerialNumber: 0000:00:06.0
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.505521] hub 1-0:1.0: USB hub found
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.505592] hub 1-0:1.0: 8 ports detected
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.506234] uhci_hcd: USB Universal Host Controller Interface driver
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.506330] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.509053] serio: i8042 KBD port at 0x60,0x64 irq 1
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.509090] serio: i8042 AUX port at 0x60,0x64 irq 12
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.510317] mousedev: PS/2 mouse device common for all mice
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.512427] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.515198] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.515412] rtc0: alarms up to one day, 114 bytes nvram
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.515636] device-mapper: uevent: version 1.0.3
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.516237] device-mapper: ioctl: 4.23.1-ioctl (2012-12-18) initialised: dm-devel@redhat.com
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.516273] cpuidle: using governor ladder
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.516286] cpuidle: using governor menu
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.516302] ledtrig-cpu: registered to indicate activity on CPUs
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.516316] EFI Variables Facility v0.08 2004-May-17
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.517606] ashmem: initialized
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.518340] TCP: cubic registered
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.518569] NET: Registered protocol family 10
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.518926] NET: Registered protocol family 17
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.518959] Key type dns_resolver registered
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.521182] Loading module verification certificates
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.522874] MODSIGN: Loaded cert 'Magrathea: Glacier signing key: b4b22dc378797149b151434d41979dec70846945'
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.522908] registered taskstats version 1
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.531718] Key type trusted registered
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.538955] Key type encrypted registered
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.544440] rtc_cmos rtc_cmos: setting system clock to 2014-01-23 04:06:05 UTC (1390449965)
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.544686] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.544693] EDD information not available.
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.545807] Freeing unused kernel memory: 996k freed
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.545930] Write protecting the kernel read-only data: 12288k
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.549242] Freeing unused kernel memory: 1112k freed
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.551607] Freeing unused kernel memory: 1052k freed
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.607630] Disabling lock debugging due to kernel taint
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.614195] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.614203] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.614297] e1000 0000:00:03.0: setting latency timer to 64
+Jan 22 21:06:08 cu-cs-vm kernel: [    0.912176] usb 1-1: new full-speed USB device number 2 using ohci_hcd
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.001396] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:ff:e0:42
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.001414] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.001545] ahci 0000:00:0d.0: version 3.0
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.001788] ahci: SSS flag set, parallel bus scan disabled
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.002047] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 2 ports 3 Gbps 0x3 impl SATA mode
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.002055] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.002088] ahci 0000:00:0d.0: setting latency timer to 64
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.002650] scsi0 : ahci
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.002897] scsi1 : ahci
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.002942] ata1: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.002953] ata2: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806180 irq 21
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.158838] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.158861] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.158876] usb 1-1: Product: USB Tablet
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.158890] usb 1-1: Manufacturer: VirtualBox
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.177311] usbcore: registered new interface driver usbhid
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.177324] usbhid: USB HID core driver
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.183905] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input3
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.184958] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.320558] ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.320989] ata1.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.321006] ata1.00: 62914560 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.321771] ata1.00: configured for UDMA/133
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.322793] scsi 0:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.323526] sd 0:0:0:0: [sda] 62914560 512-byte logical blocks: (32.2 GB/30.0 GiB)
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.323786] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.324189] sd 0:0:0:0: [sda] Write Protect is off
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.324209] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.324356] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.327917]  sda: sda1
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.329264] sd 0:0:0:0: [sda] Attached SCSI disk
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.408294] tsc: Refined TSC clocksource calibration: 2268.648 MHz
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.408306] Switching to clocksource tsc
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.644537] ata2: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.645017] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.645037] ata2.00: applying bridge limits
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.645831] ata2.00: configured for UDMA/100
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.647127] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.648772] sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.648788] cdrom: Uniform CD-ROM driver Revision: 3.20
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.649147] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.649524] sr 1:0:0:0: Attached scsi generic sg1 type 5
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.888817] EXT4-fs (sda1): INFO: recovery required on readonly filesystem
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.888825] EXT4-fs (sda1): write access will be enabled during recovery
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.949914] EXT4-fs (sda1): orphan cleanup on readonly fs
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.957714] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1187656
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.958709] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1187604
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.968114] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 285632
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.968187] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 285216
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.968226] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 285634
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.969974] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 285635
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.970014] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 285628
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.970053] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 285629
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.970087] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 285621
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.970107] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 285627
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.970107] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 285626
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.970107] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 285622
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.970107] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 285604
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.970107] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 285219
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.970107] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 285607
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.970107] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 285624
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.970107] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1187710
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.970122] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 262233
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.970193] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 285623
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.972230] EXT4-fs (sda1): 19 orphan inodes deleted
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.972250] EXT4-fs (sda1): recovery complete
+Jan 22 21:06:08 cu-cs-vm kernel: [    1.989358] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Jan 22 21:06:08 cu-cs-vm kernel: [    2.908424] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jan 22 21:06:08 cu-cs-vm kernel: [    2.908627] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.198430] lp: driver loaded but no devices found
+Jan 22 21:06:08 cu-cs-vm mtp-probe: checking bus 1, device 2: "/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1"
+Jan 22 21:06:08 cu-cs-vm mtp-probe: bus: 1, device: 2 was not an MTP device
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.509501] microcode: CPU0 sig=0x306a9, pf=0x1, revision=0x0
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.516352] input: Unspecified device as /devices/virtual/input/input4
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.516544] vboxguest: major 0, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.516549] vboxguest: Successfully loaded version 4.1.12_Ubuntu (interface 0x00010004)
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.532461] piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.577076] parport_pc 00:03: reported by Plug and Play ACPI
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.728200] microcode: CPU1 sig=0x306a9, pf=0x1, revision=0x0
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.730787] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.743520] ppdev: user-space parallel port driver
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.794922] type=1400 audit(1390449968.744:2): apparmor="STATUS" operation="profile_load" name="/sbin/dhclient" pid=655 comm="apparmor_parser"
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.794966] type=1400 audit(1390449968.744:3): apparmor="STATUS" operation="profile_replace" name="/sbin/dhclient" pid=654 comm="apparmor_parser"
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.795279] type=1400 audit(1390449968.744:4): apparmor="STATUS" operation="profile_load" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=654 comm="apparmor_parser"
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.795338] type=1400 audit(1390449968.744:5): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=655 comm="apparmor_parser"
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.795440] type=1400 audit(1390449968.744:6): apparmor="STATUS" operation="profile_load" name="/usr/lib/connman/scripts/dhclient-script" pid=654 comm="apparmor_parser"
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.795499] type=1400 audit(1390449968.744:7): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=655 comm="apparmor_parser"
+Jan 22 21:06:08 cu-cs-vm failsafe: Failsafe of 120 seconds reached.
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.853204] snd_intel8x0 0000:00:05.0: setting latency timer to 64
+Jan 22 21:06:08 cu-cs-vm udev-configure-printer: add /module/lp
+Jan 22 21:06:08 cu-cs-vm udev-configure-printer: Failed to get parent
+Jan 22 21:06:08 cu-cs-vm kernel: [    3.937478] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Jan 22 21:06:08 cu-cs-vm bluetoothd[766]: Bluetooth daemon 4.98
+Jan 22 21:06:08 cu-cs-vm bluetoothd[766]: Starting SDP server
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.101404] Bluetooth: Core ver 2.16
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.101487] NET: Registered protocol family 31
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.101492] Bluetooth: HCI device and connection manager initialized
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.101501] Bluetooth: HCI socket layer initialized
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.101506] Bluetooth: L2CAP socket layer initialized
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.101514] Bluetooth: SCO socket layer initialized
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.116253] type=1400 audit(1390449969.068:8): apparmor="STATUS" operation="profile_load" name="/usr/lib/cups/backend/cups-pdf" pid=777 comm="apparmor_parser"
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.116586] type=1400 audit(1390449969.068:9): apparmor="STATUS" operation="profile_load" name="/usr/sbin/cupsd" pid=777 comm="apparmor_parser"
+Jan 22 21:06:09 cu-cs-vm bluetoothd[766]: Failed to init alert plugin
+Jan 22 21:06:09 cu-cs-vm bluetoothd[766]: Failed to init time plugin
+Jan 22 21:06:09 cu-cs-vm bluetoothd[766]: Failed to init proximity plugin
+Jan 22 21:06:09 cu-cs-vm avahi-daemon[808]: Found user 'avahi' (UID 107) and group 'avahi' (GID 118).
+Jan 22 21:06:09 cu-cs-vm avahi-daemon[808]: Successfully dropped root privileges.
+Jan 22 21:06:09 cu-cs-vm avahi-daemon[808]: avahi-daemon 0.6.30 starting up.
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.203242] Bluetooth: RFCOMM TTY layer initialized
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.203257] Bluetooth: RFCOMM socket layer initialized
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.203261] Bluetooth: RFCOMM ver 1.11
+Jan 22 21:06:09 cu-cs-vm avahi-daemon[808]: Successfully called chroot().
+Jan 22 21:06:09 cu-cs-vm avahi-daemon[808]: Successfully dropped remaining capabilities.
+Jan 22 21:06:09 cu-cs-vm avahi-daemon[808]: Loading service file /services/udisks.service.
+Jan 22 21:06:09 cu-cs-vm avahi-daemon[808]: Network interface enumeration completed.
+Jan 22 21:06:09 cu-cs-vm avahi-daemon[808]: Registering HINFO record with values 'X86_64'/'LINUX'.
+Jan 22 21:06:09 cu-cs-vm avahi-daemon[808]: Server startup complete. Host name is cu-cs-vm.local. Local service cookie is 1300369516.
+Jan 22 21:06:09 cu-cs-vm avahi-daemon[808]: Service "cu-cs-vm" (/services/udisks.service) successfully established.
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.226046] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.226052] Bluetooth: BNEP filters: protocol multicast
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.226062] Bluetooth: BNEP socket layer initialized
+Jan 22 21:06:09 cu-cs-vm bluetoothd[766]: Failed to init gatt_example plugin
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.240226] intel8x0_measure_ac97_clock: measured 55201 usecs (9432 samples)
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.240231] intel8x0: measured clock 170866 rejected
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.312793] type=1400 audit(1390449969.264:10): apparmor="STATUS" operation="profile_replace" name="/sbin/dhclient" pid=846 comm="apparmor_parser"
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  ModemManager (version 0.5.2.0) starting...
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin Option High-Speed
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin Generic
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin AnyData
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin Linktop
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin Nokia
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin Option
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin Novatel
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin X22X
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin Gobi
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin MotoC
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin Longcheer
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin Sierra
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin Wavecom
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin Samsung
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin ZTE
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin SimTech
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin Huawei
+Jan 22 21:06:09 cu-cs-vm modem-manager[796]: <info>  Loaded plugin Ericsson MBM
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.600172] intel8x0_measure_ac97_clock: measured 55787 usecs (7680 samples)
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.600178] intel8x0: measured clock 137666 rejected
+Jan 22 21:06:09 cu-cs-vm anacron[907]: Anacron 2.3 started on 2014-01-22
+Jan 22 21:06:09 cu-cs-vm acpid: starting up with proc fs
+Jan 22 21:06:09 cu-cs-vm cron[889]: (CRON) INFO (pidfile fd = 3)
+Jan 22 21:06:09 cu-cs-vm NetworkManager[879]: <info> NetworkManager (version 0.9.4.0) is starting...
+Jan 22 21:06:09 cu-cs-vm NetworkManager[879]: <info> Read config file /etc/NetworkManager/NetworkManager.conf
+Jan 22 21:06:09 cu-cs-vm cron[911]: (CRON) STARTUP (fork ok)
+Jan 22 21:06:09 cu-cs-vm anacron[907]: Normal exit (0 jobs run)
+Jan 22 21:06:09 cu-cs-vm cron[911]: (CRON) INFO (Running @reboot jobs)
+Jan 22 21:06:09 cu-cs-vm acpid: 35 rules loaded
+Jan 22 21:06:09 cu-cs-vm acpid: waiting for events: event logging is off
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.960250] intel8x0_measure_ac97_clock: measured 55983 usecs (7680 samples)
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.960256] intel8x0: measured clock 137184 rejected
+Jan 22 21:06:09 cu-cs-vm kernel: [    4.960260] intel8x0: clocking to 48000
+Jan 22 21:06:09 cu-cs-vm NetworkManager[879]: <info> VPN: loaded org.freedesktop.NetworkManager.pptp
+Jan 22 21:06:09 cu-cs-vm NetworkManager[879]: <info> DNS: loaded plugin dnsmasq
+Jan 22 21:06:10 cu-cs-vm dbus[738]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Jan 22 21:06:10 cu-cs-vm udev-configure-printer: add /module/lp
+Jan 22 21:06:10 cu-cs-vm udev-configure-printer: Failed to get parent
+Jan 22 21:06:10 cu-cs-vm polkitd[942]: started daemon version 0.104 using authority implementation `local' version `0.104'
+Jan 22 21:06:10 cu-cs-vm dbus[738]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]:    SCPlugin-Ifupdown: init!
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]:    SCPlugin-Ifupdown: update_system_hostname
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]:    SCPluginIfupdown: management mode: unmanaged
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]:    SCPlugin-Ifupdown: devices added (path: /sys/devices/pci0000:00/0000:00:03.0/net/eth0, iface: eth0)
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]:    SCPlugin-Ifupdown: device added (path: /sys/devices/pci0000:00/0000:00:03.0/net/eth0, iface: eth0): no ifupdown configuration found.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]:    SCPlugin-Ifupdown: devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]:    SCPlugin-Ifupdown: device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]:    SCPlugin-Ifupdown: end _init.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Loaded plugin ifupdown: (C) 2008 Canonical Ltd.  To report bugs please use the NetworkManager mailing list.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Loaded plugin keyfile: (c) 2007 - 2010 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]:    Ifupdown: get unmanaged devices count: 0
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]:    SCPlugin-Ifupdown: (7435056) ... get_connections.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]:    SCPlugin-Ifupdown: (7435056) ... get_connections (managed=false): return empty list.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]:    Ifupdown: get unmanaged devices count: 0
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> modem-manager is now available
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> monitoring kernel firmware directory '/lib/firmware'.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> WiFi enabled by radio killswitch; enabled by state file
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> WWAN enabled by radio killswitch; enabled by state file
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> WiMAX enabled by radio killswitch; enabled by state file
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Networking is enabled by state file
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <warn> failed to allocate link cache: (-10) Operation not supported
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> (eth0): carrier is OFF
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> (eth0): new Ethernet device (driver: 'e1000' ifindex: 2)
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> (eth0): exported as /org/freedesktop/NetworkManager/Devices/0
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> (eth0): now managed
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> (eth0): device state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> (eth0): bringing up device.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> (eth0): preparing device.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> (eth0): deactivating device (reason 'managed') [2]
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Added default wired connection 'Wired connection 1' for /sys/devices/pci0000:00/0000:00:03.0/net/eth0
+Jan 22 21:06:10 cu-cs-vm kernel: [    5.310725] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jan 22 21:06:10 cu-cs-vm kernel: [    5.310939] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jan 22 21:06:10 cu-cs-vm kernel: [    5.312870] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 22 21:06:10 cu-cs-vm kernel: [    5.313632] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> (eth0): carrier now ON (device state 20)
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> (eth0): device state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Auto-activating connection 'Wired connection 1'.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) starting connection 'Wired connection 1'
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> (eth0): device state change: disconnected -> prepare (reason 'none') [30 40 0]
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) scheduled...
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) started...
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) scheduled...
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) complete.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) starting...
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> (eth0): device state change: prepare -> config (reason 'none') [40 50 0]
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) successful.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) scheduled.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) complete.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) started...
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> (eth0): device state change: config -> ip-config (reason 'none') [50 70 0]
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Beginning DHCPv4 transaction (timeout in 45 seconds)
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> dhclient started with pid 950
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Beginning IP6 addrconf.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) complete.
+Jan 22 21:06:10 cu-cs-vm dhclient: Internet Systems Consortium DHCP Client 4.1-ESV-R4
+Jan 22 21:06:10 cu-cs-vm dhclient: Copyright 2004-2011 Internet Systems Consortium.
+Jan 22 21:06:10 cu-cs-vm dhclient: All rights reserved.
+Jan 22 21:06:10 cu-cs-vm dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Jan 22 21:06:10 cu-cs-vm dhclient: 
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> (eth0): DHCPv4 state changed nbi -> preinit
+Jan 22 21:06:10 cu-cs-vm dhclient: Listening on LPF/eth0/08:00:27:ff:e0:42
+Jan 22 21:06:10 cu-cs-vm dhclient: Sending on   LPF/eth0/08:00:27:ff:e0:42
+Jan 22 21:06:10 cu-cs-vm dhclient: Sending on   Socket/fallback
+Jan 22 21:06:10 cu-cs-vm dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Jan 22 21:06:10 cu-cs-vm dhclient: DHCPREQUEST of 10.0.2.15 on eth0 to 255.255.255.255 port 67
+Jan 22 21:06:10 cu-cs-vm dhclient: DHCPOFFER of 10.0.2.15 from 10.0.2.2
+Jan 22 21:06:10 cu-cs-vm dhclient: DHCPACK of 10.0.2.15 from 10.0.2.2
+Jan 22 21:06:10 cu-cs-vm dhclient: bound to 10.0.2.15 -- renewal in 35881 seconds.
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> (eth0): DHCPv4 state changed preinit -> bound
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info>   address 10.0.2.15
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info>   prefix 24 (255.255.255.0)
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info>   gateway 10.0.2.2
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info>   nameserver '128.138.130.30'
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info>   nameserver '128.138.240.1'
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info>   nameserver '128.138.129.76'
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info>   domain name 'int.colorado.edu'
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Stage 5 of 5 (IPv4 Configure Commit) scheduled...
+Jan 22 21:06:10 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Stage 5 of 5 (IPv4 Commit) started...
+Jan 22 21:06:10 cu-cs-vm avahi-daemon[808]: Joining mDNS multicast group on interface eth0.IPv4 with address 10.0.2.15.
+Jan 22 21:06:10 cu-cs-vm avahi-daemon[808]: New relevant interface eth0.IPv4 for mDNS.
+Jan 22 21:06:10 cu-cs-vm avahi-daemon[808]: Registering new address record for 10.0.2.15 on eth0.IPv4.
+Jan 22 21:06:10 cu-cs-vm kernel: [    5.511235] vesafb: mode is 640x480x32, linelength=2560, pages=0
+Jan 22 21:06:10 cu-cs-vm kernel: [    5.511241] vesafb: scrolling: redraw
+Jan 22 21:06:10 cu-cs-vm kernel: [    5.511245] vesafb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+Jan 22 21:06:10 cu-cs-vm kernel: [    5.511255] mtrr: your processor doesn't support write-combining
+Jan 22 21:06:10 cu-cs-vm kernel: [    5.511323] vesafb: framebuffer at 0xe0000000, mapped to 0xffffc90001980000, using 1216k, total 1216k
+Jan 22 21:06:10 cu-cs-vm kernel: [    5.511446] Console: switching to colour frame buffer device 80x30
+Jan 22 21:06:10 cu-cs-vm kernel: [    5.514050] fb0: VESA VGA frame buffer device
+Jan 22 21:06:11 cu-cs-vm acpid: client connected from 978[0:0]
+Jan 22 21:06:11 cu-cs-vm acpid: 1 client rule loaded
+Jan 22 21:06:11 cu-cs-vm NetworkManager[879]: <info> DNS: starting dnsmasq...
+Jan 22 21:06:11 cu-cs-vm avahi-daemon[808]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::a00:27ff:feff:e042.
+Jan 22 21:06:11 cu-cs-vm avahi-daemon[808]: New relevant interface eth0.IPv6 for mDNS.
+Jan 22 21:06:11 cu-cs-vm avahi-daemon[808]: Registering new address record for fe80::a00:27ff:feff:e042 on eth0.*.
+Jan 22 21:06:11 cu-cs-vm NetworkManager[879]: <error> [1390449971.422408] [nm-dns-dnsmasq.c:393] update(): dnsmasq not available on the bus, can't update servers.
+Jan 22 21:06:11 cu-cs-vm NetworkManager[879]: <error> [1390449971.422501] [nm-dns-dnsmasq.c:395] update(): dnsmasq owner not found on bus: Could not get owner of name 'uk.org.thekelleys.dnsmasq': no such name
+Jan 22 21:06:11 cu-cs-vm NetworkManager[879]: <warn> DNS: plugin dnsmasq update failed
+Jan 22 21:06:11 cu-cs-vm NetworkManager[879]: <info> (eth0): writing resolv.conf to /sbin/resolvconf
+Jan 22 21:06:11 cu-cs-vm NetworkManager[879]: <info> (eth0): device state change: ip-config -> activated (reason 'none') [70 100 0]
+Jan 22 21:06:11 cu-cs-vm NetworkManager[879]: <info> Policy set 'Wired connection 1' (eth0) as default for IPv4 routing and DNS.
+Jan 22 21:06:11 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) successful, device activated.
+Jan 22 21:06:11 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Stage 5 of 5 (IPv4 Commit) complete.
+Jan 22 21:06:11 cu-cs-vm dbus[738]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
+Jan 22 21:06:11 cu-cs-vm dnsmasq[995]: started, version 2.59 cache disabled
+Jan 22 21:06:11 cu-cs-vm dnsmasq[995]: compile time options: IPv6 GNU-getopt DBus i18n DHCP TFTP conntrack IDN
+Jan 22 21:06:11 cu-cs-vm dnsmasq[995]: DBus support enabled: connected to system bus
+Jan 22 21:06:11 cu-cs-vm dnsmasq[995]: warning: no upstream servers configured
+Jan 22 21:06:11 cu-cs-vm NetworkManager[879]: <warn> dnsmasq appeared on DBus: :1.13
+Jan 22 21:06:11 cu-cs-vm NetworkManager[879]: <info> (eth0): writing resolv.conf to /sbin/resolvconf
+Jan 22 21:06:11 cu-cs-vm dnsmasq[995]: setting upstream servers from DBus
+Jan 22 21:06:11 cu-cs-vm dnsmasq[995]: using nameserver 128.138.129.76#53
+Jan 22 21:06:11 cu-cs-vm dnsmasq[995]: using nameserver 128.138.240.1#53
+Jan 22 21:06:11 cu-cs-vm dnsmasq[995]: using nameserver 128.138.130.30#53
+Jan 22 21:06:11 cu-cs-vm dbus[738]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 22 21:06:11 cu-cs-vm kernel: [    6.963262] [drm] Initialized drm 1.1.0 20060810
+Jan 22 21:06:11 cu-cs-vm kernel: [    6.970286] [drm] Supports vblank timestamp caching Rev 1 (10.10.2010).
+Jan 22 21:06:11 cu-cs-vm kernel: [    6.970291] [drm] No driver support for vblank timestamp query.
+Jan 22 21:06:11 cu-cs-vm kernel: [    6.970296] [drm] Initialized vboxvideo 1.0.0 20090303 for 0000:00:02.0 on minor 0
+Jan 22 21:06:12 cu-cs-vm anacron[1188]: Anacron 2.3 started on 2014-01-22
+Jan 22 21:06:12 cu-cs-vm anacron[1188]: Normal exit (0 jobs run)
+Jan 22 21:06:13 cu-cs-vm dbus[738]: [system] Activating service name='org.freedesktop.Accounts' (using servicehelper)
+Jan 22 21:06:13 cu-cs-vm dbus[738]: [system] Successfully activated service 'org.freedesktop.Accounts'
+Jan 22 21:06:13 cu-cs-vm accounts-daemon[1264]: started daemon version 0.6.15
+Jan 22 21:06:13 cu-cs-vm dbus[738]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Jan 22 21:06:13 cu-cs-vm dbus[738]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Jan 22 21:06:15 cu-cs-vm gnome-session[1362]: WARNING: Session 'ubuntu' runnable check failed: Exited with code 1
+Jan 22 21:06:15 cu-cs-vm dbus[738]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Jan 22 21:06:15 cu-cs-vm dbus[738]: [system] Successfully activated service 'org.freedesktop.UPower'
+Jan 22 21:06:15 cu-cs-vm anacron[1562]: Anacron 2.3 started on 2014-01-22
+Jan 22 21:06:15 cu-cs-vm anacron[1562]: Normal exit (0 jobs run)
+Jan 22 21:06:16 cu-cs-vm dbus[738]: [system] Activating service name='org.freedesktop.ColorManager' (using servicehelper)
+Jan 22 21:06:16 cu-cs-vm dbus[738]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+Jan 22 21:06:16 cu-cs-vm dbus[738]: [system] Activating service name='org.freedesktop.RealtimeKit1' (using servicehelper)
+Jan 22 21:06:16 cu-cs-vm dbus[738]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+Jan 22 21:06:16 cu-cs-vm rtkit-daemon[1628]: Successfully called chroot.
+Jan 22 21:06:16 cu-cs-vm rtkit-daemon[1628]: Successfully dropped privileges.
+Jan 22 21:06:16 cu-cs-vm rtkit-daemon[1628]: Successfully limited resources.
+Jan 22 21:06:16 cu-cs-vm rtkit-daemon[1628]: Running.
+Jan 22 21:06:16 cu-cs-vm rtkit-daemon[1628]: Watchdog thread running.
+Jan 22 21:06:16 cu-cs-vm rtkit-daemon[1628]: Canary thread running.
+Jan 22 21:06:16 cu-cs-vm rtkit-daemon[1628]: Successfully made thread 1626 of process 1626 (n/a) owned by '1000' high priority at nice level -11.
+Jan 22 21:06:16 cu-cs-vm rtkit-daemon[1628]: Supervising 1 threads of 1 processes of 1 users.
+Jan 22 21:06:16 cu-cs-vm pulseaudio[1626]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Jan 22 21:06:16 cu-cs-vm rtkit-daemon[1628]: Successfully made thread 1633 of process 1626 (n/a) owned by '1000' RT at priority 5.
+Jan 22 21:06:16 cu-cs-vm rtkit-daemon[1628]: Supervising 2 threads of 1 processes of 1 users.
+Jan 22 21:06:16 cu-cs-vm pulseaudio[1626]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Jan 22 21:06:16 cu-cs-vm rtkit-daemon[1628]: Successfully made thread 1634 of process 1626 (n/a) owned by '1000' RT at priority 5.
+Jan 22 21:06:16 cu-cs-vm rtkit-daemon[1628]: Supervising 3 threads of 1 processes of 1 users.
+Jan 22 21:06:17 cu-cs-vm dbus[738]: [system] Activating service name='org.freedesktop.UDisks' (using servicehelper)
+Jan 22 21:06:17 cu-cs-vm dbus[738]: [system] Successfully activated service 'org.freedesktop.UDisks'
+Jan 22 21:06:32 cu-cs-vm ntpdate[1137]: step time server 91.189.89.199 offset 12.348762 sec
+Jan 22 21:06:43 cu-cs-vm NetworkManager[879]: <info> (eth0): IP6 addrconf timed out or failed.
+Jan 22 21:06:43 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) scheduled...
+Jan 22 21:06:43 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) started...
+Jan 22 21:06:43 cu-cs-vm NetworkManager[879]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) complete.
+Jan 22 21:06:46 cu-cs-vm goa[1965]: goa-daemon version 3.4.0 starting [main.c:112, main()]
+Jan 22 21:07:34 cu-cs-vm dbus[738]: [system] Activating service name='org.freedesktop.PackageKit' (using servicehelper)
+Jan 22 21:07:35 cu-cs-vm AptDaemon: INFO: Initializing daemon
+Jan 22 21:07:35 cu-cs-vm AptDaemon.PackageKit: INFO: Initializing PackageKit compat layer
+Jan 22 21:07:35 cu-cs-vm dbus[738]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jan 22 21:07:35 cu-cs-vm AptDaemon.PackageKit: INFO: Initializing PackageKit transaction
+Jan 22 21:07:35 cu-cs-vm AptDaemon.Worker: INFO: Simulating trans: /org/debian/apt/transaction/c3e5b5f7b21748619e8e17f686dbcb14
+Jan 22 21:07:35 cu-cs-vm AptDaemon.Worker: INFO: Processing transaction /org/debian/apt/transaction/c3e5b5f7b21748619e8e17f686dbcb14
+Jan 22 21:07:38 cu-cs-vm AptDaemon.PackageKit: INFO: Get updates()
+Jan 22 21:07:39 cu-cs-vm AptDaemon.Worker: INFO: Finished transaction /org/debian/apt/transaction/c3e5b5f7b21748619e8e17f686dbcb14
+Jan 22 21:08:15 cu-cs-vm pulseaudio[1626]: [alsa-sink] alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write!
+Jan 22 21:08:15 cu-cs-vm pulseaudio[1626]: [alsa-sink] alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+Jan 22 21:08:15 cu-cs-vm pulseaudio[1626]: [alsa-sink] alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Jan 22 21:12:37 cu-cs-vm kernel: [  379.755202] edzh3452 says Hello World!
+Jan 22 21:13:35 cu-cs-vm AptDaemon: INFO: Quitting due to inactivity
+Jan 22 21:13:35 cu-cs-vm AptDaemon: INFO: Quitting was requested
+Jan 22 21:17:01 cu-cs-vm CRON[2190]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 22 21:20:34 cu-cs-vm kernel: [  857.318314] audit_printk_skb: 51 callbacks suppressed
+Jan 22 21:20:34 cu-cs-vm kernel: [  857.318329] type=1400 audit(1390450834.619:28): apparmor="DENIED" operation="capable" parent=1 profile="/usr/sbin/cupsd" pid=804 comm="cupsd" pid=804 comm="cupsd" capability=36  capname="block_suspend"

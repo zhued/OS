@@ -1,0 +1,9 @@
+wall=3.18 user=4.66 system=0.15 CPU=151% i-switched=1045 v-switched=26
+wall=1.90 user=3.42 system=0.04 CPU=181% i-switched=719 v-switched=13
+wall=1.39 user=2.59 system=0.05 CPU=189% i-switched=468 v-switched=13
+wall=1.06 user=2.00 system=0.03 CPU=190% i-switched=407 v-switched=13
+wall=1.10 user=1.97 system=0.07 CPU=185% i-switched=544 v-switched=13
+wall=2.92 user=4.98 system=0.17 CPU=176% i-switched=1249 v-switched=13
+wall=2.11 user=3.92 system=0.05 CPU=188% i-switched=594 v-switched=13
+Command exited with non-zero status 130
+wall=1.56 user=0.00 system=0.00 CPU=0% i-switched=2 v-switched=4

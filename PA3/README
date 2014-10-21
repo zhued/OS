@@ -1,0 +1,33 @@
+CS3753 (Operating Systems)
+Spring 2014
+University of Colorado Boulder
+Programming Assignment 3
+
+---Folders---
+handout - Assignment description and documentation
+
+---Executables---
+./runscript - bash script that runs everything
+./CPUbound - cpu bound test program
+./IObound - io bound test program
+./MIXEDbound - mix of io and cpu bound test program
+
+---Examples---
+Build:
+ make
+
+Clean:
+ make clean
+
+CPUbound:
+ ./CPUbound <Number of Iterations> <Scheduling Policy> <Num of Processes>
+
+IObound:
+ ./IObound <Num of Processes> <Scheduling Policy> <Bytes to Copy> <Bytesize> 
+
+MIXEDbound:
+ ./MIXEDbound <Number of Iterations> <Scheduling Policy> <Num of Processes>
+
+testscript:
+ ./testscript
+
